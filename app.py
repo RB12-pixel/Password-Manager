@@ -112,7 +112,7 @@ def change():
 @app.get("/manifest.webmanifest")
 def manifest():
     m = {
-        "name": "Password locali", "short_name": "Password",
+        "name": "Password", "short_name": "Password",
         "start_url": "/", "scope": "/", "display": "standalone",
         "background_color": "#111111", "theme_color": "#111111",
         "icons": [
